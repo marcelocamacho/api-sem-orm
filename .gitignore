@@ -1,0 +1,16 @@
+node_modules
+.git
+.vscode
+yarn.lock
+yarn-error.log
+package-lock.json
+dist
+coverage/
+
+tmp/**
+!tmp/avatar
+!tmp/avatar/.gitkeep
+!tmp/cars
+!tmp/cars/.gitkeep
+
+.env
