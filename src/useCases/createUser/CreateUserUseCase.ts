@@ -1,5 +1,5 @@
-import { User } from "entities/User";
-import { IUsersRepositories } from "repositories/IUsersRepositories";
+import { User } from "../../entities/User";
+import { IUsersRepositories } from "../../repositories/IUsersRepositories";
 
 interface ICreateUserDTO{
   name: string;
