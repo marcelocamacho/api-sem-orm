@@ -1,0 +1,13 @@
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Marcelo Camacho",
+  "email": "camacho@ufpa.br"
+}
+
+### Usuário válido
+GET http://localhost:3000/users/69b182ed-b58b-47cd-9535-2b680f0ec2b8 HTTP/1.1
+
+### Usuário inválido
+GET http://localhost:3000/users/69b182ed-b58b-47cd-9535-2b680f0ec2b0 HTTP/1.1
